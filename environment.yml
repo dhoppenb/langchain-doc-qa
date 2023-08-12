@@ -1,0 +1,10 @@
+name: langchain-doc-qa-dev
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - ipykernel
+    - langchain
+    - azure-search-documents==11.4.0b08
